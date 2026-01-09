@@ -1,0 +1,23 @@
+{
+  "name": "chrodo",
+  "version": "1.0.0",
+  "description": "browser ",
+  "homepage": "https://github.com/swarnim3103/Chrodo#readme",
+  "bugs": {
+    "url": "https://github.com/swarnim3103/Chrodo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swarnim3103/Chrodo.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+     "start": "electronmon .",
+      "test": "echo \"Error: no test specified\" && exit 1" },
+  "devDependencies": {
+    "electron": "^39.2.7"
+  }
+}
