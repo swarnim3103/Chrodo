@@ -3,6 +3,7 @@
 ## Phase 1: Browser part 
 Resources used :
 1. [Browser blog](https://www.ika.im/posts/building-a-browser-in-electron)
+2. [Official docs](https://chromium.googlesource.com/chromium/src/+/main/docs/windows_build_instructions.md)
 ### Plan
 >1. Open any valid website
 >2. Handle invalid URLs gracefully
