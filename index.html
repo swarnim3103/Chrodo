@@ -4,10 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chrodo</title>
+<link rel="stylesheet" href="styles.css" />
+
 </head>
 <body>
-    <h1>
-        this is chrodoC
-    </h1>
+    <div id="topbar">
+  <input id="urlInput" type="text" placeholder="Enter URL..." />
+  <button id="goBtn">Go</button>
+</div>
+
+<webview
+  id="note"
+  src="components/note/note.html"
+  allowpopups
+></webview>
+<script src="renderer.js"></script>
+
 </body>
 </html>
